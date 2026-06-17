@@ -57,18 +57,18 @@ filenames line up: `<topic>-doc-roadmap.md` → `<topic>-plugin-prompt.md` → `
 
 ### Option A — marketplace (recommended)
 
-The repository root one level up is a marketplace catalog (`../.claude-plugin/marketplace.json`).
-From inside Claude Code:
+The repository root is a marketplace catalog (`.claude-plugin/marketplace.json`). From inside
+Claude Code, point it at the GitHub remote:
 
 ```
-/plugin marketplace add /home/jbaham2/prompts/plugin-creator
+/plugin marketplace add jbaham2/plugin-forge
 /plugin install plugin-forge@plugin-forge-marketplace
 ```
 
-Or, once the repo is pushed to GitHub, point the marketplace at the remote instead of a local path:
+Or add it from a local clone/checkout instead of the remote:
 
 ```
-/plugin marketplace add <github-user>/<repo>
+/plugin marketplace add /path/to/plugin-forge
 /plugin install plugin-forge@plugin-forge-marketplace
 ```
 
