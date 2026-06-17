@@ -1,0 +1,7 @@
+# Ignore everything at the marketplace root by default...
+/*
+
+# ...except the plugin itself, the marketplace catalog, and this file.
+!/.gitignore
+!/plugin-forge/
+!/.claude-plugin/

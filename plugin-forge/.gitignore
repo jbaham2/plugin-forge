@@ -1,0 +1,10 @@
+# Local settings overrides
+.claude/*.local.md
+
+# OS / editor cruft
+.DS_Store
+*.swp
+
+# Pipeline artifacts generated when running the skills in this dir
+*-doc-roadmap.md
+*-plugin-prompt.md

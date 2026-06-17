@@ -1,0 +1,11 @@
+{
+  "name": "plugin-forge",
+  "version": "0.1.0",
+  "description": "Turn any service's documentation into a Claude Code expert plugin: map the docs, fill the builder prompt, then build the plugin — as guided slash commands.",
+  "author": {
+    "name": "jbaham2",
+    "email": "jbaham2@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["plugin-development", "documentation", "scaffolding", "meta", "workflow"]
+}

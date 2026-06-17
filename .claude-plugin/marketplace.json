@@ -1,0 +1,17 @@
+{
+  "name": "plugin-forge-marketplace",
+  "owner": {
+    "name": "jbaham2",
+    "email": "jbaham2@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "plugin-forge",
+      "source": "./plugin-forge",
+      "description": "Turn any service's documentation into a Claude Code expert plugin: map the docs, fill the builder prompt, then build the plugin — as guided slash commands.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "keywords": ["plugin-development", "documentation", "scaffolding", "meta", "workflow"]
+    }
+  ]
+}
